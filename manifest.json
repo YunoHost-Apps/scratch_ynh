@@ -7,7 +7,7 @@
         "fr": "Scratch pour YunoHost."
     },
     "version": "3.0-Beta",
-    "url": "https://Scratch.org/",
+    "url": "https://scratch.mit.edu/",
     "license": "free",
     "maintainer": {
         "name": "liberodark",

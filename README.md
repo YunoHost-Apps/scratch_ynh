@@ -2,9 +2,9 @@
 Scratch Server
 
 - [Yunohost project](https://yunohost.org)
-- [Scratch website](http://www.ac-grenoble.fr/maths/)
+- [Scratch website](https://scratch.mit.edu/)
 
-![](https://avatars2.githubusercontent.com/u/38193973?s=280&v=4)
+![](http://maths.enseigne.ac-lyon.fr/spip/local/cache-vignettes/L800xH267/scratch_large-d88bc.jpg)
 
 
 [![Install Scratch with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=scratch)
