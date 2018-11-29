@@ -37,11 +37,11 @@
                 "name": "path",
                 "type": "path",
                 "ask": {
-                    "en": "Choose a path for Scratch only / is accepted",
-                    "fr": "Choisissez un chemin pour Scratch seulement / est accepté"
+                    "en": "Choose a path for Scratch /scratch is accepted",
+                    "fr": "Choisissez un chemin pour Scratch /scratch est accepté"
                 },
-                "example": "/",
-                "default": "/"
+                "example": "/scratch",
+                "default": "/scratch"
             },
             
             {
