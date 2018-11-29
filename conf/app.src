@@ -1,0 +1,6 @@
+SOURCE_URL=http://www.ac-grenoble.fr/maths/scratch/scratch.zip
+SOURCE_SUM=8f7e02b0832c7bbe963acdf57c729c5ee8da9b811de72c5ebd0f3d95f8937f3f0babc9919d6278f5e5a87d4284abfe0a6fa5baa1edbf429bdb79fc61634542e0
+SOURCE_SUM_PRG=sha512sum
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=scratch.zip
