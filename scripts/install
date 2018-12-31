@@ -147,4 +147,4 @@ if [ $is_public -eq 1 ]; then
 fi
 
 # Reload services
-systemctl restart nginx
+systemctl reload nginx
