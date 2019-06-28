@@ -11,10 +11,10 @@ Scratch Server
 
 ### Installing guide
 
- 1. App can be installed by YunoHost **admin web-interface** or by **running following command**:
+ App can be installed by YunoHost **admin web-interface** or by **running following command**:
 
          $ sudo yunohost app install https://github.com/YunoHost-Apps/scratch_ynh
- 1. Admin username is : **root**.
+ Admin username is : **root**.
 
  
 ### Upgrade this package:
