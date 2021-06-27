@@ -8,6 +8,14 @@
     },
     "version": "3.0-Beta~ynh1",
     "url": "https://scratch.mit.edu/",
+    "upstream": {
+        "license": "non-free",
+        "website": "https://scratch.mit.edu/",
+        "demo": "https://demo.example.com",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "userdoc": "https://yunohost.org/apps",
+        "code": "https://some.forge.com/example/example"
+    },
     "license": "non-free",
     "maintainer": {
         "name": "liberodark",
