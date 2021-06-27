@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Langage de programmation pourcréer vos propres histoires, jeux et animations interactifs
+Langage de programmation pour créer vos propres histoires, jeux et animations interactifs
 
 **Version incluse :** 3.0~ynh1
 
