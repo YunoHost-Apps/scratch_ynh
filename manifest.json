@@ -6,7 +6,7 @@
         "en": "Scratch package for YunoHost.",
         "fr": "Scratch pour YunoHost."
     },
-    "version": "3.0-Beta~ynh1",
+    "version": "3.0~ynh1",
     "url": "https://scratch.mit.edu/",
     "upstream": {
         "license": "non-free",
