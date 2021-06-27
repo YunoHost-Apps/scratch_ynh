@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Programming language to create your own interactive stories, games, and animations",
-        "fr": "Langage de programmation pourcréer vos propres histoires, jeux et animations interactifs"
+        "fr": "Langage de programmation pour créer vos propres histoires, jeux et animations interactifs"
     },
     "version": "3.0~ynh1",
     "url": "https://scratch.mit.edu/",
