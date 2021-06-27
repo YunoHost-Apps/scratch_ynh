@@ -11,18 +11,21 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Scratch pour YunoHost.
+Langage de programmation pourcréer vos propres histoires, jeux et animations interactifs
 
-**Version incluse :** 3.0-Beta~ynh1
+**Version incluse :** 3.0~ynh1
 
-**Démo :** https://demo.example.com
+**Démo :** https://llk.github.io/scratch-gui/develop/
+
+## Captures d'écran
+
+![](./doc/screenshots/800px-Scratch_3.0_Éditeur.png)
 
 ## Documentations et ressources
 
 * Site officiel de l'app : https://scratch.mit.edu/
-* Documentation officielle utilisateur : https://yunohost.org/apps
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
-* Dépôt de code officiel de l'app : https://some.forge.com/example/example
+* Documentation officielle de l'admin : https://fr.scratch-wiki.info/wiki/Scratch_3.0
+* Dépôt de code officiel de l'app : https://github.com/LLK/scratch-gui
 * Documentation YunoHost pour cette app : https://yunohost.org/app_scratch
 * Signaler un bug : https://github.com/YunoHost-Apps/scratch_ynh/issues
 

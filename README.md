@@ -15,18 +15,21 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-Scratch package for YunoHost.
+Programming language to create your own interactive stories, games, and animations
 
-**Shipped version:** 3.0-Beta~ynh1
+**Shipped version:** 3.0~ynh1
 
-**Demo:** https://demo.example.com
+**Demo:** https://llk.github.io/scratch-gui/develop/
+
+## Screenshots
+
+![](./doc/screenshots/800px-Scratch_3.0_Éditeur.png)
 
 ## Documentation and resources
 
 * Official app website: https://scratch.mit.edu/
-* Official user documentation: https://yunohost.org/apps
-* Official admin documentation: https://yunohost.org/packaging_apps
-* Upstream app code repository: https://some.forge.com/example/example
+* Official admin documentation: https://fr.scratch-wiki.info/wiki/Scratch_3.0
+* Upstream app code repository: https://github.com/LLK/scratch-gui
 * YunoHost documentation for this app: https://yunohost.org/app_scratch
 * Report a bug: https://github.com/YunoHost-Apps/scratch_ynh/issues
 
