@@ -12,8 +12,7 @@
         "license": "non-free",
         "website": "https://scratch.mit.edu/",
         "demo": "https://demo.example.com",
-        "admindoc": "https://yunohost.org/packaging_apps",
-        "userdoc": "https://yunohost.org/apps",
+        "admindoc": "https://fr.scratch-wiki.info/wiki/Scratch_3.0",
         "code": "https://some.forge.com/example/example"
     },
     "license": "non-free",
@@ -27,7 +26,6 @@
     "multi_instance": true,
     "services": [
         "nginx",
-        "mysql"
     ],
     "arguments": {
         "install": [{
