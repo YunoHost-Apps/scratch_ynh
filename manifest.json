@@ -34,7 +34,6 @@
                 "example": "/scratch",
                 "default": "/scratch"
             },
-            
             {
                 "name": "is_public",
                 "type": "boolean",
