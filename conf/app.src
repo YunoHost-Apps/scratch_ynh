@@ -1,6 +1,6 @@
-SOURCE_URL=https://github.com/YunoHost-Apps/scratch_ynh/releases/download/3.0/scratch.zip
-SOURCE_SUM=8f7e02b0832c7bbe963acdf57c729c5ee8da9b811de72c5ebd0f3d95f8937f3f0babc9919d6278f5e5a87d4284abfe0a6fa5baa1edbf429bdb79fc61634542e0
-SOURCE_SUM_PRG=sha512sum
+SOURCE_URL=https://github.com/YunoHost-Apps/scratch_ynh/releases/download/3.0-beta/scratch-gui-3.0.zip
+SOURCE_SUM=1c0c20b696547fb71af4848af034d2da21d0b1394bb2a6823a0e46fdfbb5fce8
+SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=false
 SOURCE_FILENAME=scratch.zip

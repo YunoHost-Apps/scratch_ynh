@@ -3,19 +3,19 @@
     "id": "scratch",
     "packaging_format": 1,
     "description": {
-        "en": "Scratch package for YunoHost.",
-        "fr": "Scratch pour YunoHost."
+        "en": "Programming language to create your own interactive stories, games, and animations",
+        "fr": "Langage de programmation pourcréer vos propres histoires, jeux et animations interactifs"
     },
     "version": "3.0~ynh1",
     "url": "https://scratch.mit.edu/",
     "upstream": {
-        "license": "non-free",
+        "license": "BSD-3-Clause",
         "website": "https://scratch.mit.edu/",
-        "demo": "https://demo.example.com",
+        "demo": "https://llk.github.io/scratch-gui/develop/",
         "admindoc": "https://fr.scratch-wiki.info/wiki/Scratch_3.0",
-        "code": "https://some.forge.com/example/example"
+        "code": "https://github.com/LLK/scratch-gui"
     },
-    "license": "non-free",
+    "license": "BSD-3-Clause",
     "maintainer": {
         "name": "liberodark",
         "email": "liberodark@gmail.com"
@@ -33,7 +33,6 @@
                 "type": "domain",
                 "example": "example.com"
             },
-
             {
                 "name": "path",
                 "type": "path",
