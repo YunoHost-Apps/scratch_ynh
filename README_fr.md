@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Langage de programmation pour créer vos propres histoires, jeux et animations interactifs
+Scratch est un langage de programmation graphique manipulable et exécutable par le logiciel de même nom à vocation éducative. Ainsi, Scratch est à la fois un environnement de développement et un moteur d’exécution du langage Scratch mais aussi un site web.
 
 **Version incluse :** 3.0~ynh1
 
