@@ -17,7 +17,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Shipped version:** 3.0~ynh1
+**Shipped version:** 3.0~ynh2
 
 **Demo:** https://llk.github.io/scratch-gui/develop/
 
