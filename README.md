@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Scratch for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/scratch.svg)](https://dash.yunohost.org/appci/app/scratch) ![Working status](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/scratch.svg)](https://dash.yunohost.org/appci/app/scratch) ![Working status](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)
+
 [![Install Scratch with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=scratch)
 
 *[Lire ce readme en français.](./README_fr.md)*
