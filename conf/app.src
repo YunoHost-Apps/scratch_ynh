@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/YunoHost-Apps/scratch_ynh/releases/download/3.0-beta/scratch.zip
-SOURCE_SUM=61aedce5a9f02534ca57e08b24eaedd9c5bb8077c1541211ca7688e277f3979f
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=scratch.zip
-SOURCE_EXTRACT=true
