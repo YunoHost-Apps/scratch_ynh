@@ -1,0 +1,51 @@
+packaging_format = 2
+
+id = "scratch"
+name = "Scratch"
+description.en = "Programming language to create your own interactive stories, games, and animations"
+description.fr = "Langage de programmation pour créer vos propres histoires, jeux et animations interactifs"
+
+version = "3.0~ynh3"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "BSD-3-Clause"
+website = "https://scratch.mit.edu/"
+demo = "https://llk.github.io/scratch-gui/develop/"
+admindoc = "https://fr.scratch-wiki.info/wiki/Scratch_3.0"
+code = "https://github.com/LLK/scratch-gui"
+
+[integration]
+yunohost = ">= 11.1.21"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/scratch"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+        [resources.sources.main]
+        url = "https://github.com/YunoHost-Apps/scratch_ynh/releases/download/3.0-beta/scratch.zip"
+        sha256 = "61aedce5a9f02534ca57e08b24eaedd9c5bb8077c1541211ca7688e277f3979f"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"

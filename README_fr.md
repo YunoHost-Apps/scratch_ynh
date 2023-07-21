@@ -5,15 +5,16 @@ It shall NOT be edited by hand.
 
 # Scratch pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/scratch.svg)](https://dash.yunohost.org/appci/app/scratch) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/scratch.svg)](https://dash.yunohost.org/appci/app/scratch) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)
+
 [![Installer Scratch avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=scratch)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Scratch rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Scratch rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Scratch est un langage de programmation graphique manipulable et exécutable par le logiciel de même nom à vocation éducative. Ainsi, Scratch est à la fois un environnement de développement et un moteur d’exécution du langage Scratch mais aussi un site web.
 
@@ -21,15 +22,15 @@ Scratch est un langage de programmation graphique manipulable et exécutable par
 
 **Démo :** https://llk.github.io/scratch-gui/develop/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Scratch](./doc/screenshots/800px-Scratch_3.0_Éditeur.png)
+![Capture d’écran de Scratch](./doc/screenshots/800px-Scratch_3.0_Éditeur.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://scratch.mit.edu/>
-* Documentation officielle de l'admin : <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
-* Dépôt de code officiel de l'app : <https://github.com/LLK/scratch-gui>
+* Site officiel de l’app : <https://scratch.mit.edu/>
+* Documentation officielle de l’admin : <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
+* Dépôt de code officiel de l’app : <https://github.com/LLK/scratch-gui>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_scratch>
 * Signaler un bug : <https://github.com/YunoHost-Apps/scratch_ynh/issues>
 
@@ -45,4 +46,4 @@ ou
 sudo yunohost app upgrade scratch -u https://github.com/YunoHost-Apps/scratch_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
