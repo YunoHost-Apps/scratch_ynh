@@ -31,7 +31,7 @@ Scratch is a free programming language and online community where you can create
 * Official app website: <https://scratch.mit.edu/>
 * Official admin documentation: <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
 * Upstream app code repository: <https://github.com/LLK/scratch-gui>
-* YunoHost documentation for this app: <https://yunohost.org/app_scratch>
+* YunoHost Store: <https://apps.yunohost.org/app/scratch>
 * Report a bug: <https://github.com/YunoHost-Apps/scratch_ynh/issues>
 
 ## Developer info
