@@ -7,7 +7,7 @@ description.fr = "Langage de programmation pour créer vos propres histoires, je
 
 version = "3.0~ynh3"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "BSD-3-Clause"
