@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Scratch with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=scratch)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Scratch quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -18,9 +18,9 @@ It shall NOT be edited by hand.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Shipped version:** 3.0~ynh3
+**Shipped version:** 3.2.37~ynh1
 
-**Demo:** <https://llk.github.io/scratch-gui/develop/>
+**Demo:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
 ## Screenshots
 
@@ -29,8 +29,8 @@ Scratch is a free programming language and online community where you can create
 ## Documentation and resources
 
 - Official app website: <https://scratch.mit.edu/>
-- Official admin documentation: <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
-- Upstream app code repository: <https://github.com/LLK/scratch-gui>
+- Official admin documentation: <https://scratch-wiki.info/wiki/Scratch_3.0>
+- Upstream app code repository: <https://github.com/scratchfoundation/scratch-gui>
 - YunoHost Store: <https://apps.yunohost.org/app/scratch>
 - Report a bug: <https://github.com/YunoHost-Apps/scratch_ynh/issues>
 
