@@ -47,8 +47,11 @@ ynh_script_progression --message="Installing $app..." --weight=40
 
 pushd "$install_dir"
 	ynh_use_nodejs
- 	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
- 	ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm run build
+	npm ci
+	npm install
+	npm link
+ 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
+ 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm run build
  	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm link
 popd
 
