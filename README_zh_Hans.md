@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Scratch
+# YunoHost 上的 Scratch
 
 [![集成程度](https://dash.yunohost.org/integration/scratch.svg)](https://dash.yunohost.org/appci/app/scratch) ![工作状态](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)
 
