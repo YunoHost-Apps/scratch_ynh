@@ -47,7 +47,6 @@ ynh_script_progression --message="Installing $app..." --weight=40
 
 pushd "$install_dir"
 	ynh_use_nodejs
-	npm ci
 	npm install
 	BUILD_MODE=dist npm run build
 	npm link
