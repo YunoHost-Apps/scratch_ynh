@@ -29,6 +29,7 @@ pushd "$install_dir/sources"
     ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" BUILD_MODE=dist "$ynh_npm" run build
 popd
 
+ynh_secure_remove --file="$install_dir/www"
 mv "$install_dir/sources/build" "$install_dir/www"
 ynh_secure_remove --file="$install_dir/sources"
 
