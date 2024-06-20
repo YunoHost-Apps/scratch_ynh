@@ -18,9 +18,9 @@ EZ editatu eskuz.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Paketatutako bertsioa:** 3.0~ynh4
+**Paketatutako bertsioa:** 4.0.1~ynh1
 
-**Demoa:** <https://llk.github.io/scratch-gui/develop/>
+**Demoa:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
 ## Pantaila-argazkiak
 
@@ -29,8 +29,8 @@ Scratch is a free programming language and online community where you can create
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://scratch.mit.edu/>
-- Administratzaileen dokumentazio ofiziala: <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
-- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/LLK/scratch-gui>
+- Administratzaileen dokumentazio ofiziala: <https://scratch-wiki.info/wiki/Scratch_3.0>
+- Jatorrizko aplikazioaren kode-gordailua: <https://github.com/scratchfoundation/scratch-gui>
 - YunoHost Denda: <https://apps.yunohost.org/app/scratch>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/scratch_ynh/issues>
 

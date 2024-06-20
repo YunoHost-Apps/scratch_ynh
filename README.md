@@ -18,9 +18,9 @@ It shall NOT be edited by hand.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Shipped version:** 3.0~ynh4
+**Shipped version:** 4.0.1~ynh1
 
-**Demo:** <https://llk.github.io/scratch-gui/develop/>
+**Demo:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
 ## Screenshots
 
@@ -29,8 +29,8 @@ Scratch is a free programming language and online community where you can create
 ## Documentation and resources
 
 - Official app website: <https://scratch.mit.edu/>
-- Official admin documentation: <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
-- Upstream app code repository: <https://github.com/LLK/scratch-gui>
+- Official admin documentation: <https://scratch-wiki.info/wiki/Scratch_3.0>
+- Upstream app code repository: <https://github.com/scratchfoundation/scratch-gui>
 - YunoHost Store: <https://apps.yunohost.org/app/scratch>
 - Report a bug: <https://github.com/YunoHost-Apps/scratch_ynh/issues>
 
