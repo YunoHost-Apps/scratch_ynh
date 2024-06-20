@@ -1,8 +1,6 @@
 #!/bin/bash
 
 #=================================================
-# GENERIC START
-#=================================================
 # IMPORT GENERIC HELPERS
 #=================================================
 
@@ -25,18 +23,29 @@ ynh_script_progression --message="Upgrading source files..." --weight=5
 ynh_setup_source --dest_dir="$install_dir"
 
 chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
-# UPDATE A CONFIG FILE
+# Build
 #=================================================
-ynh_script_progression --message="Updating $app's configuration files..." --weight=1
+ynh_script_progression --message="Installing $app..." --weight=40
+
+pushd "$install_dir"
+    ynh_use_nodejs
+    ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" "$ynh_npm" install
+    ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" BUILD_MODE=dist "$ynh_npm" run build
+    ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" BUILD_MODE=dist "$ynh_npm" link
+popd
+
+#=================================================
+# REAPPLY SYSTEM CONFIGURATIONS
+#=================================================
+ynh_script_progression --message="Upgrading system configurations related to $app..." --weight=1
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
 ynh_add_systemd_config
-
 yunohost service add "$app" --description="Language to create your own interactive stories" --log="/var/log/$app/$app.log"
 
 #=================================================

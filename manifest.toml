@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "scratch"
@@ -5,7 +7,7 @@ name = "Scratch"
 description.en = "Programming language to create your own interactive stories, games, and animations"
 description.fr = "Langage de programmation pour créer vos propres histoires, jeux et animations interactifs"
 
-version = "4.0.1~ynh1"
+version = "4.0.4~ynh1"
 
 maintainers = []
 
@@ -42,10 +44,10 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
-        [resources.sources.main]
-        url = "https://github.com/scratchfoundation/scratch-gui/releases/download/v4.0.1/scratch-gui-4.0.1.tgz"
-        sha256 = "ad9a25110bc981d5aacb0bbb7816b822ec752ba9abc8a45c90a229c99c7a5913"
-        autoupdate.strategy = "latest_github_release"
+    [resources.sources.main]
+    url = "https://github.com/scratchfoundation/scratch-gui/archive/refs/tags/v4.0.4.tar.gz"
+    sha256 = "04910a021c104ac2cedf71b224ea13253ea582a829d20fc7fab75eae0e7cbb2e"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -55,4 +57,3 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.ports]
-
