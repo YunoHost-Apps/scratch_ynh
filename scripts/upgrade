@@ -13,7 +13,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression --message="Upgrading source files..." --weight=5
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir/sources" --full_replace=1
 
 chmod -R o-rwx "$install_dir"
 chown -R "$app:www-data" "$install_dir"
@@ -23,7 +23,7 @@ chown -R "$app:www-data" "$install_dir"
 #=================================================
 ynh_script_progression --message="Installing $app..." --weight=40
 
-pushd "$install_dir"
+pushd "$install_dir/sources"
     ynh_use_nodejs
     ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" "$ynh_npm" install
     ynh_exec_warn_less ynh_exec_as "$app" env "$ynh_node_load_PATH" BUILD_MODE=dist "$ynh_npm" run build
