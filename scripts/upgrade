@@ -30,6 +30,7 @@ pushd "$install_dir/sources"
 popd
 
 mv "$install_dir/sources/build" "$install_dir/www"
+ynh_secure_remove --file="$install_dir/sources"
 
 chown -R "$app:www-data" "$install_dir"
 
