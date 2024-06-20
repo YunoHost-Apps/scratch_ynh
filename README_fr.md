@@ -18,9 +18,9 @@ Il NE doit PAS être modifié à la main.
 
 Scratch est un langage de programmation graphique manipulable et exécutable par le logiciel de même nom à vocation éducative. Ainsi, Scratch est à la fois un environnement de développement et un moteur d’exécution du langage Scratch mais aussi un site web.
 
-**Version incluse :** 3.0~ynh4
+**Version incluse :** 4.0.4~ynh1
 
-**Démo :** <https://llk.github.io/scratch-gui/develop/>
+**Démo :** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
 ## Captures d’écran
 
@@ -29,8 +29,8 @@ Scratch est un langage de programmation graphique manipulable et exécutable par
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://scratch.mit.edu/>
-- Documentation officielle de l’admin : <https://fr.scratch-wiki.info/wiki/Scratch_3.0>
-- Dépôt de code officiel de l’app : <https://github.com/LLK/scratch-gui>
+- Documentation officielle de l’admin : <https://scratch-wiki.info/wiki/Scratch_3.0>
+- Dépôt de code officiel de l’app : <https://github.com/scratchfoundation/scratch-gui>
 - YunoHost Store : <https://apps.yunohost.org/app/scratch>
 - Signaler un bug : <https://github.com/YunoHost-Apps/scratch_ynh/issues>
 

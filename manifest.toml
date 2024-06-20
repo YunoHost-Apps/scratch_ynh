@@ -1,3 +1,5 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
 packaging_format = 2
 
 id = "scratch"
@@ -5,23 +7,26 @@ name = "Scratch"
 description.en = "Programming language to create your own interactive stories, games, and animations"
 description.fr = "Langage de programmation pour créer vos propres histoires, jeux et animations interactifs"
 
-version = "3.0~ynh4"
+version = "4.0.4~ynh1"
 
 maintainers = []
 
 [upstream]
 license = "BSD-3-Clause"
 website = "https://scratch.mit.edu/"
-demo = "https://llk.github.io/scratch-gui/develop/"
-admindoc = "https://fr.scratch-wiki.info/wiki/Scratch_3.0"
-code = "https://github.com/LLK/scratch-gui"
+demo = "https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
+admindoc = "https://scratch-wiki.info/wiki/Scratch_3.0"
+code = "https://github.com/scratchfoundation/scratch-gui"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -39,9 +44,10 @@ ram.runtime = "50M"
     default = "visitors"
 
 [resources]
-        [resources.sources.main]
-        url = "https://github.com/YunoHost-Apps/scratch_ynh/releases/download/3.0-beta/scratch.zip"
-        sha256 = "61aedce5a9f02534ca57e08b24eaedd9c5bb8077c1541211ca7688e277f3979f"
+    [resources.sources.main]
+    url = "https://github.com/scratchfoundation/scratch-gui/archive/refs/tags/v4.0.4.tar.gz"
+    sha256 = "04910a021c104ac2cedf71b224ea13253ea582a829d20fc7fab75eae0e7cbb2e"
+    autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
@@ -49,3 +55,5 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.ports]
