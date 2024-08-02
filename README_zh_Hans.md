@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Scratch
 
-[![集成程度](https://dash.yunohost.org/integration/scratch.svg)](https://dash.yunohost.org/appci/app/scratch) ![工作状态](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/scratch.svg)](https://ci-apps.yunohost.org/ci/apps/scratch/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)
 
 [![使用 YunoHost 安装 Scratch](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=scratch)
 
@@ -18,7 +18,7 @@
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**分发版本：** 4.0.4~ynh1
+**分发版本：** 4.0.6~ynh1
 
 **演示：** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
