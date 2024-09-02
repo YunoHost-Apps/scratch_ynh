@@ -7,7 +7,7 @@ name = "Scratch"
 description.en = "Programming language to create your own interactive stories, games, and animations"
 description.fr = "Langage de programmation pour créer vos propres histoires, jeux et animations interactifs"
 
-version = "4.0.15~ynh1"
+version = "4.0.16~ynh1"
 
 maintainers = []
 
@@ -45,8 +45,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/scratchfoundation/scratch-gui/archive/refs/tags/v4.0.15.tar.gz"
-    sha256 = "164d9d7d9cc8d3448d7ab79b0bceff92fcfbdee48a0f72735478952fcff98f34"
+    url = "https://github.com/scratchfoundation/scratch-gui/archive/refs/tags/v4.0.16.tar.gz"
+    sha256 = "0dee26e76ba295ba51e157f8eaff6e13e87067df9cde32e7b4ff562a266db23d"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
