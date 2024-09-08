@@ -25,8 +25,8 @@ ynh_script_progression "Installing $app..."
 
 pushd "$install_dir/sources"
 
-    ynh_hide_warnings ynh_exec_as_app npm install
-    ynh_hide_warnings ynh_exec_as_app BUILD_MODE=dist npm run build
+    ynh_hide_warnings npm install #ynh_exec_as_app 
+    ynh_hide_warnings BUILD_MODE=dist npm run build #ynh_exec_as_app 
 popd
 
 mv "$install_dir/sources/build" "$install_dir/www"
