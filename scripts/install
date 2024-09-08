@@ -42,21 +42,6 @@ ynh_add_systemd_config
 yunohost service add "$app" --description="Language to create your own interactive stories" --log="/var/log/$app/$app.log"
 
 #=================================================
-# INSTALL ETHERPAD
-#=================================================
-ynh_script_progression --message="Installing $app..." --weight=40
-
-pushd "$install_dir"
-	ynh_use_nodejs
-	npm install
-	BUILD_MODE=dist npm run build
-	npm link
- 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
- 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm run build
- 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm link
-popd
-
-#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression --message="Starting $app's systemd service..." --weight=1

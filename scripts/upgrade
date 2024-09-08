@@ -19,7 +19,6 @@ ynh_nodejs_install
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir/sources" --full_replace
 
 #=================================================
@@ -28,12 +27,10 @@ ynh_setup_source --dest_dir="$install_dir/sources" --full_replace
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir/sources"
-
     ynh_hide_warnings ynh_exec_as_app npm install
     ynh_hide_warnings ynh_exec_as_app BUILD_MODE=dist npm run build
 popd
 
-ynh_safe_rm "$install_dir/www"
 mv "$install_dir/sources/build" "$install_dir/www"
 ynh_safe_rm "$install_dir/sources"
 
@@ -42,7 +39,6 @@ ynh_safe_rm "$install_dir/sources"
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
-# Create a dedicated NGINX config
 ynh_config_add_nginx
 
 ynh_add_systemd_config
