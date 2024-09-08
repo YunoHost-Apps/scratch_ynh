@@ -15,7 +15,6 @@ ynh_nodejs_install
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir/sources"
 
 #=================================================
@@ -24,7 +23,6 @@ ynh_setup_source --dest_dir="$install_dir/sources"
 ynh_script_progression "Installing $app..."
 
 pushd "$install_dir/sources"
-
     ynh_hide_warnings ynh_exec_as_app npm install
     ynh_hide_warnings ynh_exec_as_app BUILD_MODE=dist npm run build
 popd
@@ -37,8 +35,33 @@ ynh_safe_rm "$install_dir/sources"
 #=================================================
 ynh_script_progression "Adding system configurations related to $app..."
 
-# Create a dedicated nginx config
 ynh_config_add_nginx
+
+ynh_add_systemd_config
+
+yunohost service add "$app" --description="Language to create your own interactive stories" --log="/var/log/$app/$app.log"
+
+#=================================================
+# INSTALL ETHERPAD
+#=================================================
+ynh_script_progression --message="Installing $app..." --weight=40
+
+pushd "$install_dir"
+	ynh_use_nodejs
+	npm install
+	BUILD_MODE=dist npm run build
+	npm link
+ 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH $ynh_npm install
+ 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm run build
+ 	#ynh_exec_warn_less ynh_exec_as $app env $ynh_node_load_PATH BUILD_MODE=dist $ynh_npm link
+popd
+
+#=================================================
+# START SYSTEMD SERVICE
+#=================================================
+ynh_script_progression --message="Starting $app's systemd service..." --weight=1
+
+ynh_systemd_action --service_name="$app" --action="start" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # END OF SCRIPT
