@@ -19,11 +19,8 @@ ynh_nodejs_install
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir/sources" --full_replace
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R "$app:www-data" "$install_dir"
 #=================================================
 # Build
 #=================================================
@@ -31,21 +28,19 @@ ynh_script_progression "Installing $app..."
 
 pushd "$install_dir/sources"
 
-    ynh_hide_warnings ynh_exec_as_app node_load_PATH" npm install
-    ynh_hide_warnings ynh_exec_as_app node_load_PATH" BUILD_MODE=dist npm run build
+    ynh_hide_warnings ynh_exec_as_app npm install
+    ynh_hide_warnings ynh_exec_as_app BUILD_MODE=dist npm run build
 popd
 
 ynh_safe_rm "$install_dir/www"
 mv "$install_dir/sources/build" "$install_dir/www"
 ynh_safe_rm "$install_dir/sources"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R "$app:www-data" "$install_dir"
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
 ynh_script_progression "Upgrading system configurations related to $app..."
 
-# Create a dedicated NGINX config
 ynh_config_add_nginx
 
 #=================================================
