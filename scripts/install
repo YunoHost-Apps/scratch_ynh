@@ -29,6 +29,7 @@ pushd "$install_dir/sources"
 popd
 
 mv "$install_dir/sources/build" "$install_dir/www"
+mv "$install_dir/sources/package.json" "$install_dir"
 ynh_safe_rm "$install_dir/sources"
 
 #=================================================
