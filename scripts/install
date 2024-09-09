@@ -47,7 +47,7 @@ yunohost service add "$app" --description="Language to create your own interacti
 #=================================================
 ynh_script_progression --message="Starting $app's systemd service..." --weight=1
 
-ynh_systemd_action --service="$app" --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemctl --service="$app" --action="start" --log_path="/var/log/$app/$app.log"
 
 #=================================================
 # END OF SCRIPT
