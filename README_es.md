@@ -18,7 +18,7 @@ No se debe editar a mano.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Versión actual:** 4.0.19~ynh1
+**Versión actual:** 4.0.20~ynh1
 
 **Demo:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
@@ -36,7 +36,7 @@ Scratch is a free programming language and online community where you can create
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/scratch_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/scratch_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
