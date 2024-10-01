@@ -16,7 +16,8 @@ ynh_nodejs_install
 ynh_script_progression "Setting up source files..."
 
 ynh_setup_source --dest_dir="$install_dir/sources"
-chown -R $app "$install_dir/sources"
+
+chown -R $app: "$install_dir/sources"
 
 #=================================================
 # Build
@@ -48,7 +49,7 @@ yunohost service add "$app" --description="Language to create your own interacti
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemctl --service="$app" --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
