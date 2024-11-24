@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Scratch para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/scratch.svg)](https://ci-apps.yunohost.org/ci/apps/scratch/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/scratch.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/scratch.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/scratch)](https://ci-apps.yunohost.org/ci/apps/scratch/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/scratch)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/scratch)
 
 [![Instalar Scratch con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=scratch)
 
@@ -18,7 +20,7 @@ NON debe editarse manualmente.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Versión proporcionada:** 4.1.6~ynh1
+**Versión proporcionada:** 4.1.7~ynh1
 
 **Demo:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
