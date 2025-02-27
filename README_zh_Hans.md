@@ -20,7 +20,7 @@
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**分发版本：** 5.1.39~ynh1
+**分发版本：** 5.1.41~ynh1
 
 **演示：** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
