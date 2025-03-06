@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Paketatutako bertsioa:** 5.1.42~ynh1
+**Paketatutako bertsioa:** 5.1.43~ynh1
 
 **Demoa:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
