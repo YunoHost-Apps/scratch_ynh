@@ -20,7 +20,7 @@ EZ editatu eskuz.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Paketatutako bertsioa:** 5.1.48~ynh1
+**Paketatutako bertsioa:** 5.1.50~ynh1
 
 **Demoa:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
@@ -40,7 +40,7 @@ Scratch is a free programming language and online community where you can create
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/scratch_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/scratch_ynh/tree/testing --debug

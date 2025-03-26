@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Scratch para Yunohost
+# Scratch para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/scratch)](https://ci-apps.yunohost.org/ci/apps/scratch/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/scratch)
@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations.
 
-**Versión actual:** 5.1.48~ynh1
+**Versión actual:** 5.1.50~ynh1
 
 **Demo:** <https://scratch.mit.edu/projects/editor/?tutorial=getStarted>
 
