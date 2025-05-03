@@ -17,8 +17,6 @@ ynh_script_progression "Upgrading source files..."
 
 ynh_setup_source --dest_dir="$install_dir/sources" --full_replace
 
-chown -R $app: "$install_dir/sources"
-
 #=================================================
 # Build
 #=================================================
@@ -38,17 +36,6 @@ ynh_safe_rm "$install_dir/sources"
 ynh_script_progression "Upgrading system configurations related to $app..."
 
 ynh_config_add_nginx
-
-ynh_add_systemd_config
-
-yunohost service add "$app" --description="Language to create your own interactive stories" --log="/var/log/$app/$app.log"
-
-#=================================================
-# START SYSTEMD SERVICE
-#=================================================
-ynh_script_progression "Starting $app's systemd service..."
-
-ynh_systemd_action --service_name="$app" --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
