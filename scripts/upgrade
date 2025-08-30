@@ -34,6 +34,12 @@ pushd "$install_dir/sources"
     ynh_hide_warnings ynh_exec_as_app BUILD_MODE=dist npm run build
 popd
 
+# Get rid of the previous www folder to replace the build
+if [ -d "$install_dir/www" ]
+then
+    ynh_safe_rm "$install_dir/www"
+fi
+
 mv "$install_dir/sources/build" "$install_dir/www"
 ynh_safe_rm "$install_dir/sources"
 
