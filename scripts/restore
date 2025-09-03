@@ -4,7 +4,6 @@
 # IMPORT GENERIC HELPERS
 #=================================================
 
-
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -18,8 +17,6 @@ ynh_restore "$install_dir"
 # RESTORE THE NGINX CONFIGURATION
 #=================================================
 ynh_script_progression "Restoring the NGINX configuration..."
-
-#REMOVEME? ynh_nodejs_install
 
 ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 
