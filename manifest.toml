@@ -7,7 +7,7 @@ name = "Scratch"
 description.en = "Programming language to create your own interactive stories, games, and animations"
 description.fr = "Langage de programmation pour créer vos propres histoires, jeux et animations interactifs"
 
-version = "5.1.104~ynh2"
+version = "5.1.107~ynh1"
 
 maintainers = []
 
@@ -20,13 +20,12 @@ code = "https://github.com/scratchfoundation/scratch-gui"
 
 [integration]
 
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -47,8 +46,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/scratchfoundation/scratch-gui/archive/refs/tags/v5.1.104.tar.gz"
-    sha256 = "f92b0913e481e6e057ccd4ab201f9d804be349da86cdc22f819a85bb85d2d2ea"
+    url = "https://github.com/scratchfoundation/scratch-gui/archive/refs/tags/v5.1.107.tar.gz"
+    sha256 = "54d79fc2e3f2d0c5e0eed0967c755c1b49bc24b32da3f35d5c822ba6d2cd760e"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
@@ -58,3 +57,6 @@ ram.runtime = "50M"
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.nodejs]
+    version = "22"
